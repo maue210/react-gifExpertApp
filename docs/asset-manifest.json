@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maue210/gif-expert-app.git/static/css/main.37d38a07.css",
+    "main.js": "/maue210/gif-expert-app.git/static/js/main.3a9123b7.js",
+    "index.html": "/maue210/gif-expert-app.git/index.html",
+    "main.37d38a07.css.map": "/maue210/gif-expert-app.git/static/css/main.37d38a07.css.map",
+    "main.3a9123b7.js.map": "/maue210/gif-expert-app.git/static/js/main.3a9123b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37d38a07.css",
+    "static/js/main.3a9123b7.js"
+  ]
+}
