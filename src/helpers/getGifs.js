@@ -11,7 +11,7 @@ export const getGifs = async( category ) =>{
     })
     
     console.log(pokemons);*/
-    const url =`http://api.giphy.com/v1/gifs/search?q=${ encodeURI(category)}&limit=10&api_key=fEHbwNHB4jSzMtYW3OH2f9nVP8nICvPp`;
+    const url =`https://api.giphy.com/v1/gifs/search?q=${ encodeURI(category)}&limit=10&api_key=fEHbwNHB4jSzMtYW3OH2f9nVP8nICvPp`;
     const resp = await fetch(url);
     const {data} = await resp.json();
     const gifs = data.map ( img => {
