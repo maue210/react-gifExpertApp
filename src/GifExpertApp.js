@@ -5,7 +5,7 @@ import { GifGrid } from "./components/GifGrid";
 export const GifExpertApp = () => {
 
     //const categories = ['One punch', 'Pokemon','Dragon ball'];
-    const [categories, setCategories] = useState(['ditto']);
+    const [categories, setCategories] = useState(['Pokemon']);
 
     /*const handleAdd = () => {
         setCategories( [...categories, 'HunterXHunter'] );
@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
     }*/
 
             return(
-            <><h2>GifExpertApp</h2>
+            <>
             <AddCategoy setCategoria={setCategories}/>
             <hr />
 

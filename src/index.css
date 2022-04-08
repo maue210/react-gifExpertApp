@@ -3,8 +3,14 @@
 
 }
 
+h3{
+  color: rgb(250, 82, 118);
+  font-size: xx-large;
+}
+
 body{
   padding: 60px;
+  background-color: rgb(184, 255, 255);
 }
 
 input {
@@ -17,17 +23,19 @@ input {
   align-content: center;
   border: 1px solid grey;
   border-radius: 6px;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  margin-bottom: 1px;
+  margin-right: 1px;
   overflow: hidden;
+  width: 9%;
+  height: 100%;
 }
 
 .card p{
-  padding: 5px;
+  padding: 1px;
   text-align: center;
 }
 .card img{
-  max-height: 170px;
+  max-height: 100px;
 }
 
 .card-grid{
